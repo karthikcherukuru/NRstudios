@@ -1,0 +1,1 @@
+{"name":"gsap","version":"3.13.0","main":"dist/gsap.js","types":"types/index.d.ts","description":"Official GSAP distribution, vendored due to restricted npm access","license":"Standard license","homepage":"https://gsap.com"}
