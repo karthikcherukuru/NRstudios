@@ -1,0 +1,18 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { ScrollReveal } from "@/components/scroll-reveal";
+
+export const metadata: Metadata = { title: "Our story", description: "An Indian design vocabulary of silk, temple borders, colour and memory. Discover the inspiration behind NR Studios." };
+
+export default function StoryPage() {
+  return <main id="main-content" className="story-page"><ScrollReveal>
+    <section className="story-intro section-wrap"><span className="section-kicker">Our story</span><h1>Some things<br />are made to<br /><em>stay.</em></h1><div className="story-intro-aside"><p>A colour. A feeling.<br />The way a saree holds a moment.</p><p>NR Studios is a contemporary expression of an enduring Indian love affair with cloth.</p></div></section>
+    <div className="story-panorama"><Image src="/images/heritage-editorial.webp" alt="Indian stone arches, carved pillars and the soft light of a heritage courtyard" fill sizes="100vw" priority /><span>Architecture, rhythm, memory.</span></div>
+    <section className="story-philosophy section-wrap" data-reveal><span className="section-kicker">The things we return to</span><h2>Tradition is a<br /><em>living language.</em></h2><div><p>It lives in the way a border catches the light. In a paisley remembered from your mother’s wardrobe. In the quiet confidence of wearing something that feels entirely your own.</p><p>The Heirloom Edit explores this vocabulary through seven colours. Temple borders, floral buti and expressive gold motifs meet a contemporary eye for proportion and styling.</p><p>Our intention is simple: give these familiar forms room to feel new.</p></div></section>
+    <section className="story-material section-wrap"><div className="story-material-image" data-reveal><Image src="/images/textile-detail.webp" alt="Detailed gold floral zari against pleated wine-coloured silk" fill sizes="(max-width: 767px) 100vw, 50vw" /></div><div className="story-material-copy" data-reveal><h2>Look a<br /><em>little closer.</em></h2><p>There is a whole composition in a saree: the repeating motif, the pause of plain colour, the weight of a border, the drama of the pallu.</p><p>Our concept collection celebrates that balance. Every look is paired with its hanging drape, so you can move from the detail to the complete silhouette.</p><Link href="/catalog" className="text-link">Explore all seven sarees <ArrowUpRight size={18} /></Link></div></section>
+    <section className="care-section section-wrap" id="care" aria-labelledby="care-title" data-reveal><div><span className="section-kicker">The art of keeping</span><h2 id="care-title">Good things<br />deserve <em>care.</em></h2></div><div className="care-notes"><details open><summary>Give the fabric room</summary><p>Store your saree in a breathable cotton or muslin cover, away from direct sunlight. Avoid crowding your wardrobe.</p></details><details><summary>Fold with a little thought</summary><p>Refold occasionally along different lines. Keep embellished surfaces from rubbing against one another.</p></details><details><summary>Follow the garment’s care label</summary><p>Care depends on the actual weave and embellishment. Follow the label supplied with your garment and consult a specialist cleaner for delicate silks.</p></details></div></section>
+    <aside className="concept-note section-wrap">NR Studios is a portfolio concept. Collection imagery is illustrative, and fabric descriptions and prices are sample data. No claims of artisan partnerships, certifications or brand history are implied.</aside>
+  </ScrollReveal></main>;
+}

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-23",
+  "mode": "Built-in image_gen",
+  "assets": [
+    {
+      "name": "heritage-editorial",
+      "prompt": "Use case: photorealistic-natural. Asset type: supporting editorial photograph for an Indian luxury saree atelier website, not a product detail. Create a cinematic architectural fashion-editorial still, horizontal 3:2 composition, no people. An intimate Indian heritage courtyard viewed obliquely through an elegant scalloped Mughal arch: hand-carved pale sandstone, patinated warm ivory lime-plaster walls, delicate geometric stone jali lattice casting sharply patterned afternoon sunlight across the floor, a second arch receding into deep royal midnight navy shadow. Sparse, restrained, believable interior architecture, exquisite fine material detail, sophisticated international fashion-magazine photography shot on medium-format film, subtle grain, warm ambient lighting, strong sculptural light and quiet depth. One folded dark burgundy silk textile with a subtle antique brass-gold woven border rests on a low stone bench in the distant middle ground. Colors warm heritage ivory #E7D7B8, rich midnight shadow #101B3A, subtle wine red #B5122B and soft antique brass. No text, no watermarks, no signage, no logos, no busy props, no dramatic lens effects, no excessive decoration. Architecture and its natural light are the subject, not a claim of any real location or brand atelier.",
+      "original": "assets/generated/heritage-editorial.png",
+      "optimized": "public/images/heritage-editorial.webp",
+      "status": "generated-and-saved",
+      "role": "Editorial architecture concept; not a real NR Studios location"
+    },
+    {
+      "name": "textile-detail",
+      "prompt": "Use case: product-mockup. Asset type: supporting textile-detail editorial photograph for Indian luxury saree website. Reference image: the attached wine-portrait.webp is the exact saree color and embroidery reference; preserve its dark burgundy wine silk, tiny spaced antique-gold floral buti, wide antique-gold temple/brocade border and woven texture. Create a new photographic composition of this same saree material alone, no model, no hands. Extreme close-up, landscape 3:2, fabric draped in three natural soft undulating folds over a warm ivory stone surface, a broad intricate antique-gold brocade border running diagonally across the lower part. Silk has realistic individual threads, uneven highlights and tactile weave, no plasticky shine. Focus on a foreground section of gold zari, allow the rear folds to fall gently out of focus. Directional late-afternoon window light, warm intimate atelier mood, museum-quality luxury editorial photograph. No text, logos, watermarks, lettering, jewelry, tools, people or unrelated props. This is a fabric editorial illustration based on the reference, not a technical textile specification. Preserve the actual wine hue and the visual language of the reference border.",
+      "reference": "public/images/wine-portrait.webp",
+      "original": "assets/generated/textile-detail.png",
+      "optimized": "public/images/textile-detail.webp",
+      "status": "generated-and-saved",
+      "role": "Reference-based textile editorial; not evidence of physical goods"
+    }
+  ]
+}
